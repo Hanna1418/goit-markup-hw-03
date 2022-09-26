@@ -29,7 +29,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  }
+}
 
 .section {
   padding-top: 94px;
@@ -44,17 +44,14 @@ ul {
 .navheader {
   display: flex;
   margin-left: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .notnavheader {
   display: flex;
   gap: 50px;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
+
 .navheaderli {
   margin-right: 50px;
 }
@@ -70,7 +67,8 @@ body {
 
 .hero {
   background: var(--header-footer-color);
-  padding: 200px 0px 280px 0px;
+  padding: 200px 0px 200px 0px;
+  text-align: center;
 }
 
 .hero-title {
@@ -96,9 +94,8 @@ body {
   color: var(--advantage-color);
   border-color: transparent;
   border-radius: 4px;
-  margin: 0 auto;
-  display: block;
   margin-top: 30px;
+  padding: 10px 25px;
 }
 
 .benefitsone {
@@ -134,7 +131,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .text {
@@ -160,15 +157,14 @@ body {
   letter-spacing: 0.03em;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .title-name {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .title-profession {
@@ -176,13 +172,11 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color-light);
-  padding-bottom: 30px;
 }
 
 .header-menu {
   background-color: var(--advantage-color);
-  border-bottom: 1px solid #ECECEC;
-  
+  border-bottom: 1px solid #ececec;
 }
 
 .logo-nav {
@@ -190,8 +184,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  padding-bottom: 25px;
   padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -208,6 +202,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-tel {
@@ -217,6 +214,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-light);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link {
@@ -244,7 +244,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .buttons {
@@ -273,16 +273,34 @@ body {
   gap: 30px;
 }
 
+.photo {
+  display: block;
+  max-width: 100%;
+}
+.photo-two {
+  display: block;
+  max-width: 100%;
+}
+
+.subjunctive {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .main-background {
   background-color: var(--advantage-color);
-  border-bottom: 1px solid #EEEEEE;
+}
 
+.portfolio-subjunctive {
+  padding: 20px 24px;
+  border-left:  1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .img-link {
-  padding: 20px 24px 4px 24px;
+  margin-bottom: 4px;
 }
 .img-linktwo {
-  padding: 0px 24px 20px 20px;
 }
 
 .main {
@@ -326,18 +344,21 @@ body {
 }
 .footer-menu {
   background-color: var(--header-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-three {
   color: var(--advantage-color);
 }
 
-.retreat-logo {
-  display: flex;
-  padding-top: 60px;
-  padding-bottom: 20px;
-}
 .address-bottom {
-  padding-bottom: 60px;
+  margin-top: 20px;
+}
+.addressli {
+  margin-bottom: 9px;
+}
+.addressli:last-child {
+  margin-bottom: 0px;
 }
 
 .visually-hidden {
